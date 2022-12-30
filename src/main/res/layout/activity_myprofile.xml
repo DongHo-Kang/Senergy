@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Myprofile">
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="14dp"
+        android:text="My Profile"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="65dp"/>
+
+    //
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="108dp"
+        android:layout_height="134dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/person4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John K Mackenzi"
+        android:layout_marginTop="75dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(551)330-4134\nJ1h@gmail.com\n57 E. Central Blvd. #B, Palisades Park, NJ 07650"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-156dp"
+        android:textSize="11dp"/>
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginTop="88dp"
+        app:srcCompat="@drawable/crow" />
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginTop="190dp"
+        app:srcCompat="@drawable/line"/>
+
+    <ImageView
+        android:layout_width="348dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="-370dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/information_background" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8              5               10               3"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="-313dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posting       Booking            Friend             Review"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="-296dp"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+    //
+
+    <ImageView
+        android:layout_width="348dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="-334dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/information_background" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-325dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="-55dp"
+        app:srcCompat="@drawable/visa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visa 5566"
+        android:layout_marginTop="304dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-160dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/line"/>
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="-325dp"
+        app:srcCompat="@drawable/plus_cir" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Card"
+        android:layout_marginTop="343dp"
+        android:layout_marginLeft="8dp"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        />
+
+    <ImageView
+        android:layout_width="348dp"
+        android:layout_height="244dp"
+        android:layout_marginLeft="-122dp"
+        android:layout_marginTop="397dp"
+        android:background="@drawable/information_background" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leisure History"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="-325dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="303dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="-101dp"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@drawable/all" />
+    //
+
+    <Button
+        android:id="@+id/btn_add_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/add_icon" />
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="42dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="675dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Posting"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //채팅
+    <Button
+        android:id="@+id/btn_chat_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/chat_icon" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="43dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="675dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Chat"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //프로필
+    <Button
+        android:id="@+id/btn_user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/user_icon" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="47dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="675dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Profile"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //위시리스트
+    <Button
+        android:id="@+id/btn_heart_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/heart_icon" />
+
+    <Button
+        android:id="@+id/btn_wishlist"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="675dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Wishlist"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    //리마인더
+    <Button
+        android:id="@+id/btn_bell_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/bell_icon" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="675dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Reminder"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/round_no_corver"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="-25dp"
+        android:text="3"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

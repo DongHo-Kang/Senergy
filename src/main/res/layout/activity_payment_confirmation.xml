@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment_confirmation"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="38dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="16dp"
+        android:text="Confirmation"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="70dp"/>
+    <!--광고-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-400dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/company_color_background" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="-400dp"
+        app:srcCompat="@drawable/simply_hot" />
+
+    <Button
+        android:id="@+id/btn_ad"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="FREE CLASS FOR A FRIEND"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn_ad2"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-265dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="One per person, For new students only"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+
+    <ImageView
+        android:layout_width="348dp"
+        android:layout_height="459dp"
+        android:layout_marginLeft="-310dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/information_background" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="230dp"
+        android:text="Thank you for your payment"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:textColor="#009D00"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="-220dp"
+        android:text="A receipt has been emailed to you"
+        android:textSize="12dp"
+        android:textColor="#C2C2C2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="-170dp"
+        android:text="Complete"
+        android:textSize="35dp"
+        android:textColor="#8200FF"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="360dp"
+        android:text="Tickets                                                              1
+        \n\nPrice                                                             $35
+        \n\nDate                                                            Dec.1
+        \n\nEquipment rental                                    $90.60
+        \n\nEmail                                        J1h@gmail.com"
+        android:textColor="#000000"
+        android:textSize="12dp" />
+    <ImageView
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-283dp"
+        android:layout_marginTop="520dp"
+        app:srcCompat="@drawable/line" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Payment Amount\n\n               $125.60"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="-235dp"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btn_home2"
+        android:layout_width="289dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/round_corner"
+        android:text="Home"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+
+
+
+
+
+</LinearLayout>

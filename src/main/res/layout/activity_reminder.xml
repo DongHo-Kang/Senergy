@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reminder"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="-16dp"
+        android:text="Reminder"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="-22dp"
+        android:layout_marginLeft="63dp"/>
+
+    //광고
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="-372dp"
+        app:srcCompat="@drawable/company_color_background" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="-400dp"
+        app:srcCompat="@drawable/simply_hot" />
+
+    <Button
+        android:id="@+id/btn_ad"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="FREE CLASS FOR A FRIEND"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn_ad2"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-266dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="One per person, For new students only"
+        android:textSize="10dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+    //업체 나열
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="342dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="-306dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginTop="210dp"
+        app:srcCompat="@drawable/simply_hot" />
+
+    <Button
+        android:id="@+id/btn_simply_hot"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Yoga class"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:textColor="#8200ff"/>
+    <Button
+        android:id="@+id/btn_simply_hot1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-54dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="is in 2 days !"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-135dp"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="10:00 am - 11:00 am"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="239dp"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t forget to bring your yoga clothes."
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="-12dp"
+        android:textSize="10dp"
+        android:textColor="#000000"/>
+
+    //
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="342dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="-311dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginTop="337dp"
+        app:srcCompat="@drawable/skyway_golf" />
+
+    <Button
+        android:id="@+id/btn_skyway_golf"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="287dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Golf Course"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:textColor="#8200ff"/>
+    <Button
+        android:id="@+id/btn_skyway_golf1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-47dp"
+        android:layout_marginTop="287dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="is in 5 days !"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-143dp"
+        android:layout_marginTop="313dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="10:00 am - 11:00 am"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-99dp"
+        android:layout_marginTop="367dp"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We will prepare your golf equipments."
+        android:layout_marginTop="333dp"
+        android:layout_marginLeft="-11dp"
+        android:textSize="10dp"
+        android:textColor="#000000"/>
+    //
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="342dp"
+        android:layout_height="114dp"
+        android:layout_marginLeft="-311dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="-320dp"
+        android:layout_marginTop="469dp"
+        app:srcCompat="@drawable/innerlogo" />
+
+    <Button
+        android:id="@+id/btn_flower_school"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Flower School"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:textColor="#8200ff"/>
+    <Button
+        android:id="@+id/btn_flower_school1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-32dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="is in 10 days !"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-158dp"
+        android:layout_marginTop="447dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="13:00 am - 14:30 am"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-99dp"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/clock" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please be on time."
+        android:layout_marginTop="467dp"
+        android:layout_marginLeft="-11dp"
+        android:textSize="10dp"
+        android:textColor="#000000"/>
+    //메뉴하단바
+    <Button
+        android:id="@+id/btn_add_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/add_icon" />
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="654dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Posting"
+        android:textSize="5dp" />
+    //채팅
+    <Button
+        android:id="@+id/btn_chat_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/chat_icon" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="654dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Chat"
+        android:textSize="5dp" />
+    //프로필
+    <Button
+        android:id="@+id/btn_user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/user_icon" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="654dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Profile"
+        android:textSize="5dp" />
+    //위시리스트
+    <Button
+        android:id="@+id/btn_heart_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/heart_icon" />
+
+    <Button
+        android:id="@+id/btn_wishlist"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="654dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Wishlist"
+        android:textSize="5dp" />
+    //리마인더
+    <Button
+        android:id="@+id/btn_bell_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/bell_icon" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="654dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Reminder"
+        android:textSize="5dp" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/round_no_corver"
+        android:layout_marginTop="615dp"
+        android:layout_marginLeft="-25dp"
+        android:text="3"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+
+
+
+</LinearLayout>

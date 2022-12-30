@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dynamic">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="19dp"
+        android:text="Dynamic"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="350dp"/>
+    //광고
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/company_color_background" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/simply_hot" />
+
+    <Button
+        android:id="@+id/btn_ad"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="FREE CLASS FOR A FRIEND"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn_ad2"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="One per person, For new students only"
+        android:textSize="10dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+    //여가 업체 나열
+    //21 golf range
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="342dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="185dp"
+        app:srcCompat="@drawable/golf_range" />
+
+    <Button
+        android:id="@+id/btn_golf_range"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="21 Golf Range by Toptracer"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="195dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="1 US-46 W, Palisades Park, NJ 07650"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="210dp"
+        app:srcCompat="@drawable/location" />
+    //skyway
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="342dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="264dp"
+        app:srcCompat="@drawable/skyway_golf" />
+
+    <Button
+        android:id="@+id/btn_skyway_golf"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="267dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="Skyway Golf Course"
+        android:textSize="13dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_515"
+        android:layout_width="195dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="515 Duncan Ave, Jersey City, NJ 07306"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@drawable/location" />
+
+    //Mountain Creek
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="342dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="345dp"
+        app:srcCompat="@drawable/mountain_creek" />
+
+    <Button
+        android:id="@+id/btn_mountain_creak"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="Mountain Creek Ski"
+        android:textSize="13dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_200"
+        android:layout_width="195dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="200 Route 94 Vernon, New Jersey 07462"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="370dp"
+        app:srcCompat="@drawable/location" />
+
+    //Pearl studio NYC
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="342dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="415dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="424dp"
+        app:srcCompat="@drawable/pear_studios_nyc" />
+
+    <Button
+        android:id="@+id/btn_pearl_studios"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="427dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="Pearl Studios NYC"
+        android:textSize="13dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_500"
+        android:layout_width="195dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="500 Eighth Avenue, New York, NY 10018 "
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@drawable/location" />
+
+    //Simply Hot Yoga
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="342dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="495dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="505dp"
+        app:srcCompat="@drawable/simply_hot" />
+
+    <Button
+        android:id="@+id/btn_hot_yoga"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="515dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="Simply Hot Yoga + Fitness"
+        android:textSize="13dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_536"
+        android:layout_width="195dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="535dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="536 Bergen Blvd, Palisades Park, NJ 07650"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="535dp"
+        app:srcCompat="@drawable/location" />
+
+    //Hot yoga
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="342dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="575dp"
+        android:background="@drawable/white_blackline_background" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="91dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="584dp"
+        app:srcCompat="@drawable/hot_yoga_chelsea" />
+
+    <Button
+        android:id="@+id/btn_hot_yoga_chelsea"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="Hot Yoga Chelsea"
+        android:textSize="13dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_115"
+        android:layout_width="195dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="610dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="115 W 27th St, New York, NY 10001"
+        android:textSize="9dp"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="610dp"
+        app:srcCompat="@drawable/location" />
+
+    //메뉴하단바
+    <Button
+        android:id="@+id/btn_add_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/add_icon" />
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Posting"
+        android:textSize="5dp" />
+    //채팅
+    <Button
+        android:id="@+id/btn_chat_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/chat_icon" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Chat"
+        android:textSize="5dp" />
+    //프로필
+    <Button
+        android:id="@+id/btn_user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="191dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/user_icon" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Profile"
+        android:textSize="5dp" />
+    //위시리스트
+    <Button
+        android:id="@+id/btn_heart_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/heart_icon" />
+
+    <Button
+        android:id="@+id/btn_wishlist"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Wishlist"
+        android:textSize="5dp" />
+    //리마인더
+    <Button
+        android:id="@+id/btn_bell_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/bell_icon" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Reminder"
+        android:textSize="5dp" />
+
+
+
+
+</FrameLayout>
+

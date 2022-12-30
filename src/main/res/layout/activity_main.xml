@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="185dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="115dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:src="@drawable/senergy2">
+    </ImageView>
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="268dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-215dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#8200FF"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+    
+    <Button
+        android:layout_width="268dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-268dp"
+        android:layout_marginTop="585dp"
+        android:backgroundTint="#8200FF"
+        android:text="Join"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_corner"
+        android:textSize="30dp"
+        >
+    </Button>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="268dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="-268dp"
+        android:layout_marginRight="55dp"
+        android:inputType="textPersonName"
+        android:text="  ID"
+        android:background="@drawable/corner_white"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="268dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="-326dp"
+        android:layout_marginRight="92dp"
+        android:inputType="textPersonName"
+        android:text="  Password"
+        android:background="@drawable/corner_white"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-268dp"
+        android:layout_marginRight="-20dp"
+        android:layout_marginTop="410dp"
+        android:text="Forget Password"
+        android:textColor="#000000"
+        android:textAllCaps="false"
+        android:backgroundTint="#ffffff"
+        android:background="#00ff0000"
+        >
+    </Button>
+
+
+</LinearLayout>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Posting3">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="13dp"
+        android:text="Posting"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"/>
+
+    //
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="316dp"
+        android:layout_height="480dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/white_blackline_background" />
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-290dp"
+        app:srcCompat="@drawable/person1" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kurt"
+        android:layout_marginTop="84dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="10dp"
+        android:text="515 Duncan Ave, Jersey City, NJ 07306"
+        android:layout_marginTop="99dp"
+        android:layout_marginLeft="-15dp"
+        android:textSize="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="122dp"
+        android:layout_marginLeft="-168dp"
+        app:srcCompat="@drawable/location" />
+    <TextView
+        android:layout_width="21dp"
+        android:layout_height="10dp"
+        android:text="10/22"
+        android:textSize="7.8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="190dp"/>
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="280dp"
+        android:layout_height="144dp"
+        android:layout_marginLeft="-279dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/golf" />
+    <Button
+        android:id="@+id/btn_good"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Good Scenery at"
+        android:textSize="15dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="#SkywayGolf"
+        android:textColor="#49A7FE"
+        android:textSize="15dp"
+        android:textAllCaps="false"/>
+    <ImageView
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-218dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/line" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="-290dp"
+        app:srcCompat="@drawable/person3" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linda"
+        android:layout_marginTop="394dp"
+        android:layout_marginLeft="0dp"/>
+
+    <Button
+        android:layout_width="54dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="-33dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="Awesome."
+        android:textSize="10dp"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="21dp"
+        android:layout_height="10dp"
+        android:text="10/22"
+        android:textSize="7.8dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="160dp"/>
+    <ImageView
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-288dp"
+        android:layout_marginTop="460dp"
+        app:srcCompat="@drawable/line" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="-290dp"
+        app:srcCompat="@drawable/person9" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="John"
+        android:layout_marginTop="457dp"
+        android:layout_marginLeft="0dp"/>
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/white_backgroud_round"
+        android:gravity="left"
+        android:text="When will you go there again?"
+        android:textSize="10dp"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="21dp"
+        android:layout_height="10dp"
+        android:text="10/22"
+        android:textSize="7.8dp"
+        android:layout_marginTop="457dp"
+        android:layout_marginLeft="55dp"/>
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="298dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="-285dp"
+        android:inputType="textPersonName"
+        android:text="Leave a comment"
+        android:background="@drawable/coner_search"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textColor="#8F8F8F"
+        />
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="522dp"
+        android:layout_marginLeft="-29dp"
+        app:srcCompat="@drawable/color_click"
+        android:background="@drawable/white_backgroud_round"/>
+    //
+    <Button
+        android:id="@+id/btn_add_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/add_icon" />
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="674dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Posting"
+        android:textSize="5dp" />
+    //채팅
+    <Button
+        android:id="@+id/btn_chat_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/chat_icon" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="674dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Chat"
+        android:textSize="5dp" />
+    //프로필
+    <Button
+        android:id="@+id/btn_user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/user_icon" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="674dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Profile"
+        android:textSize="5dp" />
+    //위시리스트
+    <Button
+        android:id="@+id/btn_heart_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/heart_icon" />
+
+    <Button
+        android:id="@+id/btn_wishlist"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="674dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Wishlist"
+        android:textSize="5dp" />
+    //리마인더
+    <Button
+        android:id="@+id/btn_bell_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/bell_icon" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="47dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="-43dp"
+        android:layout_marginTop="674dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Reminder"
+        android:textSize="5dp" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/round_no_corver"
+        android:layout_marginTop="635dp"
+        android:layout_marginLeft="-25dp"
+        android:text="3"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

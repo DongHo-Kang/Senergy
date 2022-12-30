@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wishlist">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="16dp"
+        android:text="Wishlist"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="80dp"/>
+    //광고
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-367dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/ad_blue_background" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="-397dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/dopin" />
+
+    <Button
+        android:id="@+id/btn_ad"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="GRAND OPEN DEAL  20% OFF"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn_ad2"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-266dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Dolphin Blue Spa - NYC Best Day Spa"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="-345dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:layout_width="36dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="170dp"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/down"
+        />
+
+    <ImageButton
+        android:layout_width="36dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/side"
+        android:background="#ffffff"
+        android:layout_marginTop="170dp"
+        />
+
+    //정보 화면
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="295dp"
+        android:layout_height="383dp"
+        android:layout_marginLeft="-400dp"
+        android:layout_marginTop="245dp"
+        app:srcCompat="@drawable/information_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginTop="245dp"
+        android:text="Skyway Golf Course"
+        android:textAllCaps="false"
+        android:textSize="21dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-192.1dp"
+        android:layout_marginTop="265dp"
+        android:text="4.0" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="282dp"
+        app:srcCompat="@drawable/star" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:text="(22)" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="254dp"
+        app:srcCompat="@drawable/red_heart" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="-25dp"
+        android:text="68" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="126dp"
+        android:layout_marginLeft="-246dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/golf"
+        />
+
+    <ImageView
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-272dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-245dp"
+        android:layout_marginTop="440dp"
+        android:gravity="left"
+        android:text="515 Duncan Ave, Jersey City, NJ 07306 \n\nOpen daily, 7 am – 7:30 pm
+                      \n\n(201) 763-7520 \n\nsmills@kempersports.com"
+        android:textAllCaps="false"
+        android:textSize="9dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-179dp"
+        android:layout_marginTop="464dp"
+        app:srcCompat="@drawable/location" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/clock"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="-10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/phone_call"
+        android:layout_marginTop="508dp"
+        android:layout_marginLeft="-10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/email"
+        android:layout_marginTop="529dp"
+        android:layout_marginLeft="-8dp"/>
+
+    <Button
+        android:id="@+id/btn_booking"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/round_corner"
+        android:text="Booking"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+    //옆에 활동
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="295dp"
+        android:layout_height="383dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="245dp"
+        app:srcCompat="@drawable/information_background" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-280dp"
+        android:layout_marginTop="245dp"
+        android:text="American Museum of Natural history"
+        android:textAllCaps="false"
+        android:textSize="21dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.2"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="-400dp"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="282dp"
+        app:srcCompat="@drawable/star" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:text="(" />
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_marginLeft="-90dp"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/dino"
+        />
+
+    <ImageView
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-272dp"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/line" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginTop="440dp"
+        android:gravity="left"
+        android:text="200 Central Park West \n\nOpen daily, 10 am - 5: \nClosed Thanksgiving \nChristmas Say.\n\n(212)769-5100"
+        android:textAllCaps="false"
+        android:textSize="9dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginTop="464dp"
+        app:srcCompat="@drawable/location" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/clock"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="-10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/phone_call"
+        android:layout_marginTop="508dp"
+        android:layout_marginLeft="-10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/email"
+        android:layout_marginTop="529dp"
+        android:layout_marginLeft="-8dp"/>
+
+    <Button
+        android:id="@+id/btn_booking2"
+        android:layout_width="100dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/round_corner"
+        android:text="Booking"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+
+    //메뉴 하단바
+    <Button
+        android:id="@+id/btn_add_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="-459dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/add_icon" />
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="42dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Posting"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //채팅
+    <Button
+        android:id="@+id/btn_chat_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/chat_icon" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="43dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Chat"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //프로필
+    <Button
+        android:id="@+id/btn_user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/user_icon" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="47dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Profile"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //위시리스트
+    <Button
+        android:id="@+id/btn_heart_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/heart_icon" />
+
+    <Button
+        android:id="@+id/btn_wishlist"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Wishlist"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    //리마인더
+    <Button
+        android:id="@+id/btn_bell_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/bell_icon" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Reminder"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/round_no_corver"
+        android:layout_marginTop="645dp"
+        android:layout_marginLeft="-25dp"
+        android:text="3"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+
+
+
+
+</LinearLayout>

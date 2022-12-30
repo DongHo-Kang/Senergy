@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chatting1">
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="6dp"
+        android:text="Chatting"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="65dp"/>
+    //
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="-359dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/ad_blue_background" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="-397dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/dopin" />
+
+    <Button
+        android:id="@+id/btn_ad"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="GRAND OPEN DEAL  20% OFF"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btn_ad2"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-266dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Dolphin Blue Spa - NYC Best Day Spa"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+    //
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="328dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="-340dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/white_blackline_background" />
+    <Button
+        android:id="@+id/btn_guitar"
+        android:layout_width="92dp"
+        android:layout_height="20dp"
+        android:text="Play the guitar"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="-300dp"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:background="@drawable/white_backgroud_round"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-93dp"
+        android:layout_marginTop="195dp"
+        android:text="Member"
+        android:textSize="10dp" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:text="6/10"
+        android:layout_marginTop="195dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="-5dp"
+        android:textColor="#8200FF"/>
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/guitar"
+        android:layout_marginTop="192dp"
+        android:layout_marginLeft="130dp"/>
+    //
+
+    <Button
+        android:id="@+id/btn_button10"
+        android:layout_width="328dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="-298dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/white_blackline_background" />
+    <Button
+        android:id="@+id/btn_yoga"
+        android:layout_width="92dp"
+        android:layout_height="20dp"
+        android:text="Group Yoga"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="-300dp"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:background="@drawable/white_backgroud_round"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-93dp"
+        android:layout_marginTop="285dp"
+        android:text="Member"
+        android:textSize="10dp" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:text="7/10"
+        android:layout_marginTop="285dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="-5dp"
+        android:textColor="#8200FF"/>
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/yoga"
+        android:layout_marginTop="282dp"
+        android:layout_marginLeft="130dp"/>
+
+    //
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="328dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="-298dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/white_blackline_background" />
+    <Button
+        android:id="@+id/btn_ball"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="Gateball members"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="-300dp"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:background="@drawable/white_backgroud_round"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-110dp"
+        android:layout_marginTop="375dp"
+        android:text="Member"
+        android:textSize="10dp" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:text="5/10"
+        android:layout_marginTop="375dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="-5dp"
+        android:textColor="#8200FF"/>
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/gateball"
+        android:layout_marginTop="372dp"
+        android:layout_marginLeft="130dp"/>
+    //
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="328dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="-298dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/white_blackline_background" />
+    <Button
+        android:id="@+id/btn_welcome"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="Welcome to join us"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="-300dp"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:background="@drawable/white_backgroud_round"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-110dp"
+        android:layout_marginTop="465dp"
+        android:text="Member"
+        android:textSize="10dp" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:text="9/12"
+        android:layout_marginTop="465dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="-5dp"
+        android:textColor="#8200FF"/>
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/welcom"
+        android:layout_marginTop="462dp"
+        android:layout_marginLeft="130dp"/>
+    //
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="328dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="-298dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/white_blackline_background" />
+    <Button
+        android:id="@+id/btn_piano"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:text="Piano Class"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="-300dp"
+        android:textSize="13dp"
+        android:gravity="left"
+        android:textAllCaps="false"
+        android:background="@drawable/white_backgroud_round"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-110dp"
+        android:layout_marginTop="555dp"
+        android:text="Member"
+        android:textSize="10dp" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:text="5/5"
+        android:layout_marginTop="555dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="-5dp"
+        android:textColor="#8200FF"/>
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/piano"
+        android:layout_marginTop="552dp"
+        android:layout_marginLeft="130dp"/>
+    //
+    <Button
+        android:id="@+id/btn_add_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="-302dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/add_icon" />
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="42dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Posting"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //채팅
+    <Button
+        android:id="@+id/btn_chat_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/chat_icon" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="43dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Chat"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //프로필
+    <Button
+        android:id="@+id/btn_user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/user_icon" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="47dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Profile"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //위시리스트
+    <Button
+        android:id="@+id/btn_heart_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/heart_icon" />
+
+    <Button
+        android:id="@+id/btn_wishlist"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Wishlist"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    //리마인더
+    <Button
+        android:id="@+id/btn_bell_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/bell_icon" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="670dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Reminder"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/round_no_corver"
+        android:layout_marginTop="635dp"
+        android:layout_marginLeft="-25dp"
+        android:text="3"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+
+
+
+</LinearLayout>

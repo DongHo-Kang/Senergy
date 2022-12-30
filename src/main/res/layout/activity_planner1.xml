@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Planner1">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backspace"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="16dp"
+        android:text="Planner"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/home"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="80dp"/>
+    //달력
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="349dp"
+        android:layout_marginLeft="-330dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/information_background"
+        />
+
+    //예약
+
+    <ImageView
+        android:layout_width="348dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="-350dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/information_background" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-325dp"
+        android:layout_marginTop="450dp"
+        android:text="Skyway Golf Course"
+        android:textAllCaps="false"
+        android:textSize="21dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-170dp"
+        android:layout_marginTop="475dp"
+        android:gravity="left"
+        android:text="515 Duncan Ave, Jersey City, NJ 07306 \n\nOpen daily, 7 am – 7:30 pm
+                      \n\n(201) 763-7520 \n\nsmills@kempersports.com"
+        android:textAllCaps="false"
+        android:textSize="9dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-179dp"
+        android:layout_marginTop="499dp"
+        app:srcCompat="@drawable/location" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/clock"
+        android:layout_marginTop="521dp"
+        android:layout_marginLeft="-10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/phone_call"
+        android:layout_marginTop="542dp"
+        android:layout_marginLeft="-10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/email"
+        android:layout_marginTop="564dp"
+        android:layout_marginLeft="-8dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/planner_location"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="175dp"/>
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="289dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="-295dp"
+        android:layout_marginTop="611dp"
+        android:background="@drawable/round_corner"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+
+    //메뉴 하단바
+    <Button
+        android:id="@+id/btn_add_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="-322dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/add_icon" />
+
+    <Button
+        android:id="@+id/btn_posting"
+        android:layout_width="42dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Posting"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //채팅
+    <Button
+        android:id="@+id/btn_chat_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/chat_icon" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        android:layout_width="43dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Chat"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //프로필
+    <Button
+        android:id="@+id/btn_user_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/user_icon" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="47dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Profile"
+        android:textSize="5dp"
+        android:textAllCaps="false"/>
+    //위시리스트
+    <Button
+        android:id="@+id/btn_heart_icon2"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/heart_icon" />
+
+    <Button
+        android:id="@+id/btn_wishlist2"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Wishlist"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    //리마인더
+    <Button
+        android:id="@+id/btn_bell_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/bell_icon" />
+
+    <Button
+        android:id="@+id/btn_reminder"
+        android:layout_width="47dp"
+        android:layout_height="11dp"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/white_backgroud_round"
+        android:text="Reminder"
+        android:textAllCaps="false"
+        android:textSize="5dp" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/round_no_corver"
+        android:layout_marginTop="645dp"
+        android:layout_marginLeft="-25dp"
+        android:text="3"
+        android:textSize="10dp"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>
